@@ -1,0 +1,36 @@
+# CODEOWNERS file for auth-controller-814
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/grp-storage @Armor-test/squad-search
+
+# Directory ownership
+/auth/ @Armor-test/team-logging @Armor-test/unit-governance @Armor-test/unit-design
+/web/ @Armor-test/dept-test @Armor-test/dept-ui
+/core/ @Armor-test/dept-data @Armor-test/grp-ui @Armor-test/dept-ui
+/data/ @Armor-test/team-reporting @Armor-test/unit-test
+/models/ @Armor-test/squad-tooling @Armor-test/team-reporting @Armor-test/dept-test
+/services/ @Armor-test/grp-search @Armor-test/squad-reporting
+/examples/ @Armor-test/squad-search @Armor-test/squad-cloud
+/plugins/ @Armor-test/grp-payments @Armor-test/squad-cache
+/modules/ @Armor-test/dept-notifications @Armor-test/squad-qa @Armor-test/squad-ml
+/config/ @Armor-test/grp-ui @Armor-test/squad-api
+/middleware/ @Armor-test/team-logging @Armor-test/grp-search @Armor-test/squad-performance
+/public/ @Armor-test/team-research @Armor-test/unit-design
+/dist/ @Armor-test/grp-ui @Armor-test/dept-security
+
+# File type ownership
+*.cs @Armor-test/grp-search @Armor-test/dept-release @Armor-test/unit-design
+*.js @Armor-test/dept-automation @Armor-test/dept-reliability
+*.h @Armor-test/grp-storage @Armor-test/dept-release
+*.rs @Armor-test/unit-governance @Armor-test/dept-reliability
+*.scala @Armor-test/team-security @Armor-test/squad-reporting
+*.toml @Armor-test/team-logging @Armor-test/squad-cache @Armor-test/grp-payments
+*.ini @Armor-test/dept-notifications @Armor-test/dept-reliability
+*.kt @Armor-test/squad-qa @Armor-test/dept-identity @Armor-test/team-governance
+*.tsx @Armor-test/squad-research @Armor-test/squad-payments
+*.go @Armor-test/grp-storage @Armor-test/squad-research
+*.yaml @Armor-test/squad-product @Armor-test/squad-tooling
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
